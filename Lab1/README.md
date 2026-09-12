@@ -2,7 +2,7 @@
 
 **Тема:** Налаштування середовища розробки для HTML, CSS, JavaScript/TypeScript  
 **Автор:** [Shakk1N](https://github.com/Shakk1N)  
-**Репозиторій:** [https://github.com/Shakk1N/-HTMLCSS](https://github.com/Shakk1N/-HTMLCSS)  
+**Репозиторій:** [https://github.com/Shakk1N/-HTMLCSS](https://github.com/Shakk1N/HTMLCSS)  
 **Live Деплой:** [https://htmlcss.lab1.shak1n.com](https://htmlcss.lab1.shak1n.com)
 
 ---
