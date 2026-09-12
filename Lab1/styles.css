@@ -116,20 +116,12 @@ button {
 }
 
 .brand-logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
   font-size: 1.15rem;
   font-weight: 700;
   color: var(--text-primary);
   letter-spacing: -0.02em;
-}
-
-.logo-image {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
-  display: block;
 }
 
 .header-actions {
