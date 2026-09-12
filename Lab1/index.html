@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Лабораторна робота №1: Мінімалістичне та преміальне локальне середовище фронтенд-розробки (HTML, CSS, JavaScript, Git, Render)."
+    />
+    <title>Лабораторна робота №1 | Frontend Development</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="main-header">
+      <div class="container header-container">
+        <span class="brand-logo" id="brand-logo">CBHTMLCSS</span>
+
+        <div class="header-actions">
+          <a
+            href="https://github.com/Shakk1N/-HTMLCSS"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="header-link"
+            id="nav-github-link"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero-section" id="hero">
+        <div class="container hero-container">
+          <span class="hero-tag">Лабораторна робота №1 • 2026</span>
+
+          <h1 class="hero-title">Сучасне локальне середовище фронтенд-розробки</h1>
+
+          <p class="hero-description">
+            Чиста робоча екосистема для веб-розробки: редактор коду з перевіркою якості (ESLint 9,
+            Prettier), контроль версій Git/GitHub, деплоймент на платформі
+            <strong>Render</strong> та дисциплінований AI-агент.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#interactive-demo" class="btn btn-primary" id="explore-demo-btn">
+              <span>Дослідити інструменти</span>
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&amp;list=RDdQw4w9WgXcQ&amp;start_radio=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-secondary"
+              id="btn-action-video"
+            >
+              <span>Натисніть сюди</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-environment" id="environment">
+        <div class="container">
+          <header class="section-header">
+            <span class="section-tag">Архітектура середовища</span>
+            <h2 class="section-title">Компоненти локального робочого простору</h2>
+            <p class="section-subtitle">
+              Перевірені інструменти для стабільної, передбачуваної та чисної розробки
+            </p>
+          </header>
+
+          <div class="cards-layout">
+            <article class="card card-featured" id="card-ide">
+              <div class="card-featured-content">
+                <h3 class="card-title">Редактор / IDE</h3>
+                <p class="card-text">
+                  Antigravity — сучасне повнофункціональне робоче середовище з підтримкою агентної
+                  розробки, глибокою інтеграцією HTML5, CSS3, ECMAScript, TypeScript, налаштуваннями
+                  робочого простору та локальним інструментарієм Live Preview.
+                </p>
+              </div>
+              <div class="card-tags">
+                <span class="tag">Antigravity</span>
+                <span class="tag">Agentic IDE</span>
+                <span class="tag">Live Preview</span>
+                <span class="tag">Emmet</span>
+              </div>
+            </article>
+
+            <div class="cards-secondary-stack">
+              <article class="card card-compact" id="card-quality">
+                <h3 class="card-title">Якість коду</h3>
+                <p class="card-text">
+                  ESLint 9 з сучасною Flat-конфігурацією для статичного аналізу + Prettier для
+                  єдиного крос-редакторного форматування.
+                </p>
+                <div class="card-tags">
+                  <span class="tag">ESLint 9</span>
+                  <span class="tag">Prettier</span>
+                  <span class="tag">EditorConfig</span>
+                </div>
+              </article>
+
+              <article class="card card-compact" id="card-git">
+                <h3 class="card-title">Контроль версій</h3>
+                <p class="card-text">
+                  Система контролю версій Git 2.53 та віддалений репозиторій GitHub. Зрозумілий
+                  цикл: edit → verify → commit → push.
+                </p>
+                <div class="card-tags">
+                  <span class="tag">Git 2.53</span>
+                  <span class="tag">GitHub</span>
+                </div>
+              </article>
+
+              <article class="card card-compact" id="card-deploy">
+                <h3 class="card-title">Деплоймент Render</h3>
+                <p class="card-text">
+                  Автоматизоване розгортання Static Site на хмарній платформі Render із підключеним
+                  доменом <code>htmlcss.lab1.shak1n.com</code>.
+                </p>
+                <div class="card-tags">
+                  <span class="tag">Render Static Site</span>
+                  <span class="tag">Custom Domain</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-interactive" id="interactive-demo">
+        <div class="container">
+          <header class="section-header">
+            <span class="section-tag">Інтерактивна взаємодія</span>
+            <h2 class="section-title">Тестовий модуль DOM та стану</h2>
+            <p class="section-subtitle">
+              Перевірка виконання клієнтського JavaScript, зміни стану та адаптивності
+            </p>
+          </header>
+
+          <div class="demo-layout">
+            <div class="demo-card counter-card" id="counter-widget">
+              <div class="demo-card-header">
+                <h3 class="demo-widget-title">Керування станом лічильника</h3>
+                <span class="badge-pill" id="counter-status-badge">Стан: 0</span>
+              </div>
+
+              <div class="counter-display-wrapper">
+                <div class="counter-value" id="counter-display" aria-live="polite">0</div>
+                <p class="counter-caption">Кількість збережених взаємодій</p>
+              </div>
+
+              <div class="counter-controls">
+                <button
+                  type="button"
+                  class="ctrl-btn btn-decrement"
+                  id="btn-decrement"
+                  aria-label="Зменшити значення на 1"
+                >
+                  −1
+                </button>
+                <button
+                  type="button"
+                  class="ctrl-btn btn-reset"
+                  id="btn-reset"
+                  aria-label="Скинути значення до нуля"
+                >
+                  Скинути
+                </button>
+                <button
+                  type="button"
+                  class="ctrl-btn btn-increment"
+                  id="btn-increment"
+                  aria-label="Збільшити значення на 1"
+                >
+                  +1
+                </button>
+              </div>
+            </div>
+
+            <div class="demo-card inspector-card" id="inspector-widget">
+              <div class="demo-card-header">
+                <h3 class="demo-widget-title">Інспектор клієнтського середовища</h3>
+                <span class="badge-pill">Live Inspector</span>
+              </div>
+
+              <ul class="inspector-list" id="inspector-data-list">
+                <li class="inspector-item">
+                  <span class="item-label">Ширина вікна (Viewport):</span>
+                  <span class="item-value" id="val-viewport">Обчислення...</span>
+                </li>
+                <li class="inspector-item">
+                  <span class="item-label">Тип пристрою:</span>
+                  <span class="item-value" id="val-device">Десктоп / Мобільний</span>
+                </li>
+                <li class="inspector-item">
+                  <span class="item-label">Швидкі клавіші:</span>
+                  <span class="item-value" id="val-hotkeys"
+                    ><code>+</code> / <code>−</code> лічильник</span
+                  >
+                </li>
+              </ul>
+
+              <div class="inspector-action-box">
+                <button type="button" class="btn-outline" id="btn-refresh-inspector">
+                  Оновити показники
+                </button>
+                <span class="inspector-note"
+                  >Дані оновлюються автоматично через події Resize та DOM</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="main-footer">
+      <div class="container footer-container">
+        <div class="footer-left">
+          <span class="footer-project">CBHTMLCSS</span>
+          <span class="footer-sep">/</span>
+          <span class="footer-lab">Лабораторна робота №1</span>
+        </div>
+
+        <div class="footer-right">
+          <a
+            href="https://github.com/Shakk1N/-HTMLCSS"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer-link"
+          >
+            GitHub
+          </a>
+          <span class="footer-dot" aria-hidden="true"></span>
+          <a
+            href="https://htmlcss.lab1.shak1n.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer-link"
+          >
+            Render Deploy
+          </a>
+          <span class="footer-gemini">Powered by Gemini</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
