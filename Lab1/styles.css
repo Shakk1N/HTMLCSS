@@ -125,17 +125,11 @@ button {
   letter-spacing: -0.02em;
 }
 
-.logo-symbol {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+.logo-image {
   width: 28px;
   height: 28px;
-  border-radius: var(--radius-sm);
-  background-color: var(--text-primary);
-  color: #ffffff;
-  font-size: 0.85rem;
-  font-weight: 800;
+  object-fit: contain;
+  display: block;
 }
 
 .header-actions {
